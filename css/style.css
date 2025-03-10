@@ -160,17 +160,25 @@ main .container.block .text {
 main .container.block .text h2 {
   font-size: 3rem;
 }
-h3 {
+main h3 {
   font-size: 2rem;
   margin: 50px 0px;
   padding: 30px;
+  background-image: url(../img/stars.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+/* .bg {
+  position: absolute;
+  margin: 500px;
+} */
 
 /* FOOTER */
 .top-footer {
   padding-bottom: 20px;
   border-bottom: 2px solid white;
   margin-bottom: 30px;
+  color: white;
 }
 .top-footer .container {
   display: flex;
@@ -181,20 +189,21 @@ footer {
 }
 .box.appendix {
   flex-basis: calc(100% / 3);
-  background-color: #f08080;
+  /* background-color: #f08080; */
   margin: 20px auto;
+  text-align: start;
 }
 .box.elenco {
   display: flex;
   padding: 0px;
-  background-color: #20b3a9;
+  /* background-color: #20b3a9; */
   margin: 20px auto;
   flex-basis: calc(100% / 1.5);
 }
 .box.info {
   flex-basis: 25%;
-  min-height: 500px;
-  border: 2px dashed white;
+  /* min-height: 500px; */
+  /* border: 2px dashed white; */
 }
 /* .bottom-footer .container {
   display: flex;
@@ -202,12 +211,25 @@ footer {
 } */
 .container.appendix {
   display: flex;
-  background-color: #7effd4;
+  /* background-color: #7effd4; */
   padding: 20px 0px;
   justify-content: space-between;
+  align-items: center;
 }
 .box.foot {
   margin: 0;
-  flex-grow: 0;
-  background-color: #ffb7c2;
+  /* background-color: #ffb7c2; */
+}
+.top-footer .box.appendix h3 {
+  color: #7289d9;
+  font-size: 2.5rem;
+  text-align: start;
+  padding: 60px 0px 20px 0px;
+}
+.top-footer .title {
+  color: #7289d9;
+  margin-top: 60px;
+}
+footer ul {
+  font-weight: bolder;
 }
