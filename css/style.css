@@ -30,6 +30,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+.row {
+  display: flex;
+}
 
 .button {
   background-color: #ffffff;
@@ -193,6 +196,18 @@ footer {
   margin: 20px auto;
   text-align: start;
 }
+.box.appendix .row {
+  align-items: center;
+  justify-content: flex-start;
+}
+.box.appendix .row * {
+  flex-basis: 20px;
+  margin: 4px;
+}
+.row.icons {
+  margin: 10px 0px;
+}
+
 .box.elenco {
   display: flex;
   padding: 0px;
